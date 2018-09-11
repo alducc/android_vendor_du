@@ -61,8 +61,15 @@ include vendor/du/config/packages.mk
 # Branding
 include vendor/du/config/branding.mk
 
+
 # Themes
 include vendor/themes/common.mk
+
+# PizelStyle
+include vendor/pixelstyle/config.mk
+
+# GApps
+include vendor/du/config/gapps.mk
 
 # Overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/du/overlay/common
