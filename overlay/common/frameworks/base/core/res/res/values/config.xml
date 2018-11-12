@@ -78,7 +78,6 @@
     <!-- Whether or not swipe up gesture's opt-in setting is available on this device -->
     <bool name="config_swipe_up_gesture_setting_available">true</bool>
 
-        <!-- Taken from pixel -->
     <string name="config_defaultListenerAccessPackages">com.google.android.apps.nexuslauncher:com.google.android.setupwizard:com.google.android.apps.pixelmigrate:com.google.android.as</string>
     <string name="config_defaultAssistantAccessPackage">com.google.android.ext.services</string>
     <string name="config_defaultTextClassifierPackage">com.google.android.as</string>
@@ -127,4 +126,8 @@
     </string-array>
     <string name="config_timeZoneRulesDataPackage">com.google.android.timezone.data</string>
     <string name="config_dreamsDefaultComponent">com.google.android.deskclock/com.android.deskclock.Screensaver</string>
+
+    <!-- The duration in which a recent task is considered in session and should be visible. -->
+    <integer name="config_activeTaskDurationHours">12</integer>
+
 </resources>
