@@ -76,7 +76,7 @@
     <bool name="config_enableAutoPowerModes">true</bool>
 
     <!-- Whether or not swipe up gesture's opt-in setting is available on this device -->
-    <bool name="config_swipe_up_gesture_setting_available">true</bool>
+    <bool name="config_custom_swipe_up_gesture_setting_available">true</bool>
 
     <string name="config_defaultListenerAccessPackages">com.google.android.apps.nexuslauncher:com.google.android.setupwizard:com.google.android.apps.pixelmigrate:com.google.android.as</string>
     <string name="config_defaultAssistantAccessPackage">com.google.android.ext.services</string>
