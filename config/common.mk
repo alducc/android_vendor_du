@@ -71,5 +71,8 @@ include vendor/themes/common.mk
 # GApps
 include vendor/du/config/gapps.mk
 
+# Weather
+include vendor/du/config/weather.mk
+
 # Overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/du/overlay/common
