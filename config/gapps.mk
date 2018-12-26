@@ -10,6 +10,5 @@ GAPPS_FORCE_DIALER_OVERRIDES := true
 GAPPS_FORCE_MMS_OVERRIDES := true
 GAPPS_FORCE_BROWSER_OVERRIDES := true
 GAPPS_FORCE_WEBVIEW_OVERRIDES := true
-GAPPS_FORCE_MATCHING_DPI := true
 GAPPS_PRODUCT_PACKAGES += GoogleContacts talkback LatinImeGoogle PrebuiltDeskClockGoogle CalculatorGoogle TagGoogle CalendarGooglePrebuilt Photos PrebuiltGmail MarkupGoogle ActionsServices DigitalWellbeing Turbo WebViewGoogle 
  $(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
